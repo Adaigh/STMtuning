@@ -6,7 +6,6 @@
 body {
 	min-width: 300px;
 	min-height:1500px;
-	text-align: center;
 	background-color: #000;
 	background: linear-gradient(to bottom right, rgba(0,0,0,1), rgba(150,0,0,1), rgba(150,150,0,1));
 	color: white;
@@ -16,8 +15,18 @@ header {
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background-color: rgba(0,0,0,1);
 	z-index: 10;
+}
+
+header img {
+	height: 100px;
+	width: 100%;
+}
+
+nav {
+	position: fixed;
+	top: 100px;
+	witdth: 100%;
 }
 
 main {
@@ -51,6 +60,9 @@ nav li{
 }
 
 h1 {
+	position: relative;
+	top: -2em;
+	display: none;
 }
 
 h2 {
@@ -59,9 +71,4 @@ h2 {
 
 p {
 	margin: 20px;
-}
-
-img {
-	margin: 10px;
-	height: 200px;
 }
