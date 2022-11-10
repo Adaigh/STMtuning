@@ -1,0 +1,40 @@
+.brandicons {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.brandicons div {
+	width: 10%;
+	margin: 0 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.brandicons img {
+	width: 100%;
+	min-width: 50px;
+	margin: auto 0;
+}
+
+.servicepane {
+	width: 80%;
+	min-width: 220px;
+	margin: 2% auto;
+	background-color: black;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.servicepane h3 {
+	padding: 10px;
+}
+
+.servicepane p {
+	padding: 0 25px;
+}
+
+.servicepane ul {
+	padding: 20px;
+}
