@@ -1,0 +1,20 @@
+.bg1 {
+	background-image: url('./images/gears2.jpg');
+}
+
+.bg2 {
+	background-image: url('./images/interior.jpg');
+}
+
+.bg3 {
+	background-image: url('./images/gears.jpg');
+}
+
+.bg4 {
+	background-image: url('./images/gears3.jpg');
+}
+
+.bg5 {
+	background-image: url('./images/service.jpg');
+	background-size: cover;
+}
